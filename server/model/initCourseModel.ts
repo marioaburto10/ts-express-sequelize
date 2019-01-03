@@ -12,5 +12,5 @@ export function initCourseModel(sequelize: Sequelize) {
         comingSoon: ORM.BOOLEAN,
         isNew: ORM.BOOLEAN,
         isOngoing: ORM.BOOLEAN
-    })
+    });
 }
