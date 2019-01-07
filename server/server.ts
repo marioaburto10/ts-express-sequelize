@@ -14,4 +14,4 @@ initRestApi(app);
 
 app.use(apiErrorHandler)
 
-app.listen(8080, () => console.log('Server is running on Port: 8080'))
+app.listen(8080, () => console.log('Server is running on Port: 8080'));
