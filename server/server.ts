@@ -3,7 +3,6 @@ import express from 'express';
 import { Application } from 'express';
 import { initRestApi } from "./api/api";
 import { apiErrorHandler } from './api/apiErrorHandler';
-// const bodyParser = require('body-parser');
 import bodyParser from 'body-parser';
 
 const app: Application = express();
